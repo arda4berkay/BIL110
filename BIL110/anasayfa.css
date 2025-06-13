@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #FF7518;
+  font-family: "Roboto", system-ui;
 }
 
 .header {
@@ -27,4 +28,17 @@ body {
 
 .navigasyon a:hover {
   text-decoration: underline;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+}
+.main img
+{
+    width: 50vh;
+    height: 60vh;
+}
+.main figcaption
+{
+    font-size: 0.6rem;
 }
