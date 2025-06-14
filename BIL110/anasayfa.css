@@ -20,19 +20,19 @@ body {
     font-size: 1.7rem;
     font-weight: bold;
 }
-.navigasyon{
+.nav{
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
 
-.navigasyon a {
+.nav a {
   color: #FF7518;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
-.navigasyon a:hover {
+.nav a:hover {
   text-decoration: underline;
   font-size: 1.4rem;
 }
@@ -59,4 +59,9 @@ body {
 {
   font-style: italic;
   font-size: 1.0rem;
+}
+.kitaplar
+{
+  list-style-type: none;
+  padding: 0.5vw 1vw;
 }
