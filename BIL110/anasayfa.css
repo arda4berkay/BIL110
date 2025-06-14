@@ -1,7 +1,8 @@
 body {
   margin: 0;
   background-color: #FF7518;
-  font-family: "Roboto", system-ui;
+  font-family: "Playfair Display", system-ui;
+  font-size: 1.1rem;
 }
 
 .header {
@@ -10,8 +11,13 @@ body {
   font-family: "Mystery Quest", system-ui;
 }
 .navigasyon .MANHIMSELF{
-    margin-right: 6rem;
+    margin: 0 auto;
     font-size: 1.5rem;
+    font-weight: bold;
+}
+.navigasyon .MANHIMSELF:hover{
+    margin: 0 auto;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 .navigasyon{
@@ -28,17 +34,29 @@ body {
 
 .navigasyon a:hover {
   text-decoration: underline;
+  font-size: 1.4rem;
 }
-.main{
+.biyo{
+    margin-top: 2vh;
     display: flex;
     justify-content: flex-start;
 }
+.biyo .biyoamatext{
+    background-color: #FF8C42;
+    padding: 0 2vh 0 2vh;
+    line-height: 1.5rem;
+}
 .main img
 {
-    width: 50vh;
+    width: 28vw;
     height: 60vh;
 }
 .main figcaption
 {
     font-size: 0.6rem;
+}
+.comment
+{
+  font-style: italic;
+  font-size: 1.0rem;
 }
