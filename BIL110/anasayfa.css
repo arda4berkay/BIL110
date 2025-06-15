@@ -10,20 +10,21 @@ body {
   padding: 1rem;
   font-family: "Mystery Quest", system-ui;
 }
-.navigasyon .MANHIMSELF{
+.nav .MANHIMSELF{
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
-.navigasyon .MANHIMSELF:hover{
+.nav .MANHIMSELF:hover{
     margin: 0 auto;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 .nav{
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-right: 1rem;
 }
 
 .nav a {
@@ -38,6 +39,7 @@ body {
 }
 .biyo{
     margin-top: 2vh;
+    margin-left: 2vh;
     display: flex;
     justify-content: flex-start;
 }
@@ -46,10 +48,22 @@ body {
     padding: 0 2vh 0 2vh;
     line-height: 1.5rem;
 }
-.main img
+.birinciresimanasayfa
 {
     width: 28vw;
     height: 60vh;
+}
+.ikinciresimanasayfa
+{
+    width: 60vw;
+    height: 70vh;
+}
+.birinciresimfahren
+{
+    width: 23vw;
+    border: 1px solid brown;
+    box-shadow: 0 8px 16px black;
+    height: auto;
 }
 .main figcaption
 {
@@ -64,4 +78,25 @@ body {
 {
   list-style-type: none;
   padding: 0.5vw 1vw;
+}
+.foot
+{
+  background-color: #1a1a1a;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+hr
+{
+  height: 0.3rem;
+  background-color: #1a1a1a;
+  box-shadow: 0 1px 1px black;
+}
+blockquote
+{
+  font-family: 'Merriweather', system-ui;
+  color: rgb(21, 14, 128);
+}
+.reklam
+{
+  font-size: 1rem;
 }
